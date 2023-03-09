@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Blog App Sanity CMS',
-  description: 'Create Blog App With Next.JS & Sanity CMS',
+  title: 'The BLOG',
+  description: 'Create BLOG App With Next.JS & Sanity CMS',
 };
 
 export default function RootLayout({
