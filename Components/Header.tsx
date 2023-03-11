@@ -20,7 +20,7 @@ const Header = () => {
 
             <div>
                 <Link href="http://github.com/AhmedShaykh"
-                    className="px-5 py-3 text-sm md:text-base bg-gray-900 text-white flex items-center rounded-full text-center"
+                    className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#09d9ac] flex items-center rounded-full text-center"
                 >
                     Go To My Github
                 </Link>
