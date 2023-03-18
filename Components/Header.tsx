@@ -11,11 +11,11 @@ const Header = () => {
                         className="rounded-full object-cover"
                         height={50}
                         width={50}
-                        src="/AhmedNFT.png"
+                        src="/Ahmed.jpg"
                         alt="logo"
                     />
                 </Link>
-                <h1>AHM X BLOG'S</h1>
+                <h1>AHMED BLOG'S</h1>
             </div>
 
             <div>
