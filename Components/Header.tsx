@@ -15,7 +15,7 @@ const Header = () => {
                         alt="logo"
                     />
                 </Link>
-                <h1>AHMED BLOG'S</h1>
+                <h1>AHMËD BLOG'S</h1>
             </div>
 
             <div>
