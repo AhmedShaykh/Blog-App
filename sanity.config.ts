@@ -11,7 +11,7 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
 export default defineConfig({
   basePath: "/studio",
   name: 'SANITY_BLOG_APP',
-  title: 'MY FIRST JAMSTACK BLOG APP',
+  title: 'MY JAMSTACK BLOG APP',
   projectId,
   dataset,
   plugins: [deskTool(), visionTool()],
