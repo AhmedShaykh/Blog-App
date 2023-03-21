@@ -3,8 +3,8 @@ import Banner from '@/Components/Banner';
 import '../globals.css';
 
 export const metadata = {
-  title: 'The BLOG',
-  description: 'BLOG App With Next.JS & Sanity CMS',
+  title: "AHMËD BLOG'S",
+  description: "AHMËD BLOG'S App With Next.JS & Sanity CMS"
 };
 
 export default function RootLayout({

@@ -7,6 +7,8 @@ interface Base {
 };
 
 interface Post extends base {
+    _id: string;
+    _createdAt: string;
     author: Author;
     body: Block[];
     categories: Category[];
