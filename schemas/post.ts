@@ -49,8 +49,13 @@ export default defineType({
       title: 'Body',
       type: 'blockContent',
     }),
+    defineField({
+      name: 'description',
+      title: 'Description',
+      description: 'Enter your Description',
+      type: 'string',
+    })
   ],
-
   preview: {
     select: {
       title: 'title',
