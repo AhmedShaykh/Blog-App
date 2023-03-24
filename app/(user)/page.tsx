@@ -19,7 +19,7 @@ const Home = async () => {
         return (
             <PreviewSuspense fallback={
                 <div role={"status"}>
-                    <p className="text-center text-lg animate-pulse text-[#f7ab0a]">
+                    <p className="text-center text-lg animate-pulse text-[#09d9ac]">
                         Loading Preview Data...
                     </p>
                 </div>
