@@ -13,8 +13,7 @@ const query = groq`
     } | order(_createdAt desc)
 `;
 
-const Home = async () => {
-
+const page = async () => {
     if (previewData()) {
         return (
             <PreviewSuspense fallback={
@@ -34,4 +33,4 @@ const Home = async () => {
     return <BlogList posts={posts} />
 };
 
-export default Home;
+export default page;
