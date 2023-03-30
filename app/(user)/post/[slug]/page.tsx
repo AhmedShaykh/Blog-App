@@ -58,7 +58,6 @@ const Post = async ({ params: { slug } }: Props) => {
                                 />
                                 <div className="w-64">
                                     <h3 className="text-lg font-bold">{post.author.name}</h3>
-                                    <div>{/* <AuthorBio/> */}</div>
                                 </div>
                             </div>
                         </div>
@@ -109,19 +108,22 @@ const Post = async ({ params: { slug } }: Props) => {
                     },
                     block: {
                         h1: ({ children }: any) => {
-                            return <h1 className="text-5xl py-10 font-bold">{children}</h1>;
+                            return <h1 className="text-5xl py-5 font-bold">{children}</h1>;
                         },
                         h2: ({ children }: any) => {
-                            return <h1 className="text-4xl py-10 font-bold">{children}</h1>;
+                            return <h1 className="text-4xl py-5 font-bold">{children}</h1>;
                         },
                         h3: ({ children }: any) => {
-                            return <h1 className="text-3xl py-10 font-bold">{children}</h1>;
+                            return <h1 className="text-3xl py-5 font-bold">{children}</h1>;
                         },
                         h4: ({ children }: any) => {
-                            return <h1 className="text-2xl py-10 font-bold">{children}</h1>;
+                            return <h1 className="text-2xl py-5 font-bold">{children}</h1>;
+                        },
+                        normal: ({ children }: any) => {
+                            return <p className="text-xl py-4 font-medium">{children}</p>;
                         },
                         blockquote: ({ children }: any) => {
-                            return <blockquote className="border-l-[#09d9ac] border-l-4 pl-5 py-5 my-5">
+                            return <blockquote className="border-l-[#09d9ac] border-l-4 pl-5 py-5 my-5 font-medium">
                                 {children}
                             </blockquote>;
                         }
