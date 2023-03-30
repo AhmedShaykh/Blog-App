@@ -1,1 +1,1 @@
-# Blog App With Sanity CMS!
+# Blog App With Sanity Headless CMS!
